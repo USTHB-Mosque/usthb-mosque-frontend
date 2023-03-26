@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #35506f;
+  /* font-family: "Noto Kufi Arabic", sans-serif; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-link {
+  @apply text-2xl hover:text-white hover:bg-[#2A3A4C] cursor-pointer transition-all duration-150 px-6 flex justify-center items-center text-center;
+}
